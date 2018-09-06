@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/fill"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Year">
+
+        <AutoCompleteTextView
+            android:id="@+id/year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:layout_marginRight="10dp"
+            android:focusableInTouchMode="false"
+            android:textColorHint="#fff" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Department">
+
+        <AutoCompleteTextView
+            android:id="@+id/department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:focusableInTouchMode="false"
+            android:textColorHint="#fff" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Section">
+
+        <EditText
+            android:id="@+id/section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:textColorHint="#fff" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/add_students"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/round_button"
+        android:textAllCaps="true" />
+</LinearLayout>

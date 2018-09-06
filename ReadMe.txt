@@ -1,0 +1,1 @@
+Worked as part of a team (4 Developers including one designer) to create this project
